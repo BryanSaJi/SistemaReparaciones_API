@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "nEl1XGDW2c/hO6vaBm2+HljLKPn50kZyEJe9i2qbJ4Av48A3h5fFvdx65i62S9XckR1155YySNPHIthF/pBVhQ==",
+  "success": true,
+  "projectFilePath": "C:\\WebApps\\Ufide\\SistemaReparaciones\\SistemaReparaciones_API\\SistemaReparaciones_API\\SistemaReparaciones_API\\SistemaReparaciones_API.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\bryansa\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\bryansa\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\bryansa\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
+    "C:\\Users\\bryansa\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "C:\\Users\\bryansa\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
+    "C:\\Users\\bryansa\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.5.0\\swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
