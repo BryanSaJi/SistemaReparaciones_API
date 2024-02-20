@@ -1,6 +1,16 @@
+using Microsoft.EntityFrameworkCore;
+using SistemaReparaciones_API.Context;
+
 var builder = WebApplication.CreateBuilder(args);
 
+
+// Agregar nuestra DB(Servicio)
+builder.Services.AddDbContext<SistemaReparacionesContext>(op =>
+op.UseSqlServer(builder.Configuration.GetConnectionString("SistemaReparacionesDB")));
+
+
 // Add services to the container.
+
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
