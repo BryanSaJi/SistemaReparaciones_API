@@ -146,7 +146,7 @@ namespace SistemaReparaciones_API.Controllers
 
 
         // GET: api/<TipoConsolaController>
-        [HttpGet]
+        [HttpGet("TiposConsola/")]
         public IActionResult ObtenerTiposConsola()
         {
             var tiposConsola = context.Tipos_Consola.ToList();
@@ -160,7 +160,7 @@ namespace SistemaReparaciones_API.Controllers
         }
 
         // GET api/<TipoConsolaController>/5
-        [HttpGet("{id}")]
+        [HttpGet("TiposConsola/{id}")]
         public IActionResult ObtenerTipoConsola(int id)
         {
             var tipoConsola = context.Tipos_Consola.FirstOrDefault(t => t.id == id);
@@ -174,7 +174,7 @@ namespace SistemaReparaciones_API.Controllers
         }
 
         // POST api/<TipoConsolaController>
-        [HttpPost]
+        [HttpPost("TiposConsola/")]
         public IActionResult AgregarTipoConsola([FromBody] Tipos_Consola tipos_Consola)
         {
             if (tipos_Consola == null)
@@ -196,7 +196,7 @@ namespace SistemaReparaciones_API.Controllers
         }
 
         // PUT api/<TipoConsolaController>/5
-        [HttpPut("{id}")]
+        [HttpPut("TiposConsola/{id}")]
         public IActionResult EditarTipoConsola(int id, [FromBody] Tipos_Consola tipos_Consola)
         {
             if (tipos_Consola == null)
@@ -228,7 +228,7 @@ namespace SistemaReparaciones_API.Controllers
         }
 
         // DELETE api/<TipoConsolaController>/5
-        [HttpDelete("{id}")]
+        [HttpDelete("TiposConsola/{id}")]
         public IActionResult EliminarTipoConsola(int id)
         {
             var tipoConsolaExistente = context.Tipos_Consola.Find(id);
@@ -266,7 +266,7 @@ namespace SistemaReparaciones_API.Controllers
 
 
         // GET: api/<TipoRepuestoController>
-        [HttpGet]
+        [HttpGet("TipoRepuesto/")]
         public IActionResult ObtenerTiposRepuesto()
         {
             var tiposRepuesto = context.Tipos_Repuesto.ToList();
@@ -280,7 +280,7 @@ namespace SistemaReparaciones_API.Controllers
         }
 
         // GET api/<TipoRepuestoController>/5
-        [HttpGet("{id}")]
+        [HttpGet("TipoRepuesto/{id}")]
         public IActionResult ObtenerTipoRepuesto(int id)
         {
             var tipoRepuesto = context.Tipos_Repuesto.FirstOrDefault(t => t.id == id);
@@ -294,7 +294,7 @@ namespace SistemaReparaciones_API.Controllers
         }
 
         // POST api/<TipoRepuestoController>
-        [HttpPost]
+        [HttpPost("TipoRepuesto/")]
         public IActionResult AgregarTipoRepuesto([FromBody] Tipos_Repuesto tipos_Repuesto)
         {
             if (tipos_Repuesto == null)
@@ -316,7 +316,7 @@ namespace SistemaReparaciones_API.Controllers
         }
 
         // PUT api/<TipoRepuestoController>/5
-        [HttpPut("{id}")]
+        [HttpPut("TipoRepuesto/{id}")]
         public IActionResult EditarTipoRepuesto(int id, [FromBody] Tipos_Repuesto tipoRepuesto)
         {
             if (tipoRepuesto == null)
@@ -348,7 +348,7 @@ namespace SistemaReparaciones_API.Controllers
         }
 
         // DELETE api/<TipoRepuestoController>/5
-        [HttpDelete("{id}")]
+        [HttpDelete("TipoRepuesto/{id}")]
         public IActionResult EliminarTipoRepuesto(int id)
         {
             var tipoRepuestoExistente = context.Tipos_Repuesto.Find(id);

@@ -12,7 +12,7 @@ namespace SistemaReparaciones_API.Model
 
         [Required]
         [StringLength(100)]
-        public string password { get; set; }
+        public string? password { get; set; }
 
     }
 }

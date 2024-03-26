@@ -12,28 +12,28 @@ namespace SistemaReparaciones_API.Model
 
         [Required]
         [StringLength(50)]
-        public string nombre { get; set; }
+        public string? nombre { get; set; }
 
         [Required]
         [StringLength(50)]
-        public string apellido1 { get; set; }
+        public string? apellido1 { get; set; }
 
         [Required]
         [StringLength(50)]
-        public string apellido2 { get; set; }
+        public string? apellido2 { get; set; }
 
         [Required]
         [StringLength(15)]
-        public string cedula { get; set; }
+        public string? cedula { get; set; }
 
         [StringLength(20)]
-        public string telefono1 { get; set; }
+        public string? telefono1 { get; set; }
 
         [StringLength(20)]
-        public string telefono2 { get; set; }
+        public string? telefono2 { get; set; }
 
         [StringLength(100)]
-        public string email { get; set; }
+        public string? email { get; set; }
 
         public DateTime fecha_ingreso { get; set; }
     }

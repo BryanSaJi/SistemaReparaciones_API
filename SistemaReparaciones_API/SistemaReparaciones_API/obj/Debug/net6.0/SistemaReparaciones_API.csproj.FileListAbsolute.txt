@@ -5,9 +5,11 @@ C:\WebApps\Ufide\SistemaReparaciones\SistemaReparaciones_API\SistemaReparaciones
 C:\WebApps\Ufide\SistemaReparaciones\SistemaReparaciones_API\SistemaReparaciones_API\SistemaReparaciones_API\bin\Debug\net6.0\SistemaReparaciones_API.runtimeconfig.json
 C:\WebApps\Ufide\SistemaReparaciones\SistemaReparaciones_API\SistemaReparaciones_API\SistemaReparaciones_API\bin\Debug\net6.0\SistemaReparaciones_API.dll
 C:\WebApps\Ufide\SistemaReparaciones\SistemaReparaciones_API\SistemaReparaciones_API\SistemaReparaciones_API\bin\Debug\net6.0\SistemaReparaciones_API.pdb
+C:\WebApps\Ufide\SistemaReparaciones\SistemaReparaciones_API\SistemaReparaciones_API\SistemaReparaciones_API\bin\Debug\net6.0\Humanizer.dll
 C:\WebApps\Ufide\SistemaReparaciones\SistemaReparaciones_API\SistemaReparaciones_API\SistemaReparaciones_API\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
 C:\WebApps\Ufide\SistemaReparaciones\SistemaReparaciones_API\SistemaReparaciones_API\SistemaReparaciones_API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
 C:\WebApps\Ufide\SistemaReparaciones\SistemaReparaciones_API\SistemaReparaciones_API\SistemaReparaciones_API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\WebApps\Ufide\SistemaReparaciones\SistemaReparaciones_API\SistemaReparaciones_API\SistemaReparaciones_API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
 C:\WebApps\Ufide\SistemaReparaciones\SistemaReparaciones_API\SistemaReparaciones_API\SistemaReparaciones_API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
 C:\WebApps\Ufide\SistemaReparaciones\SistemaReparaciones_API\SistemaReparaciones_API\SistemaReparaciones_API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
 C:\WebApps\Ufide\SistemaReparaciones\SistemaReparaciones_API\SistemaReparaciones_API\SistemaReparaciones_API\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll

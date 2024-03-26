@@ -12,6 +12,6 @@ namespace SistemaReparaciones_API.Model
 
         [Required]
         [StringLength(100)]
-        public string nombre_tipo { get; set; }
+        public string? nombre_tipo { get; set; }
     }
 }

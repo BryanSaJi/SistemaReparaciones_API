@@ -12,27 +12,27 @@ namespace SistemaReparaciones_API.Model
 
         [Required]
         [StringLength(50)]
-        public string nombre { get; set; }
+        public string? nombre { get; set; }
 
         [Required]
         [StringLength(50)]
-        public string apellido { get; set; }
+        public string? apellido { get; set; }
 
         [Required]
         [StringLength(15)]
-        public string cedula { get; set; }
+        public string? cedula { get; set; }
 
         public DateTime fecha_nacimiento { get; set; }
 
         [ForeignKey("Rol_id")]
         public int rol_id { get; set; }
 
-        [ForeignKey("Password_id")]
-        public int password_id { get; set; }
+        [ForeignKey("Password")]
+        public string? password { get; set; }
 
         [Required]
         [StringLength(50)]
-        public string username { get; set; }
+        public string? username { get; set; }
     }
 
 }

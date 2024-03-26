@@ -12,7 +12,7 @@ namespace SistemaReparaciones_API.Model
 
         [Required]
         [StringLength(50)]
-        public string rol { get; set; }
+        public string? rol { get; set; }
 
 
     }

@@ -94,7 +94,7 @@ namespace SistemaReparaciones_API.Controllers
                 usuarioExistente.cedula = usuarios.cedula;
                 usuarioExistente.fecha_nacimiento = usuarios.fecha_nacimiento;
                 usuarioExistente.rol_id = usuarios.rol_id;
-                usuarioExistente.password_id = usuarios.password_id;
+                usuarioExistente.password = usuarios.password;
                 usuarioExistente.username = usuarios.username;
 
                 // Guardar los cambios en la base de datos

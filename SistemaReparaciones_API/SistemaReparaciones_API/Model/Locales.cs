@@ -12,15 +12,15 @@ namespace SistemaReparaciones_API.Model
 
         [Required]
         [StringLength(100)]
-        public string nombre { get; set; }
+        public string? nombre { get; set; }
 
         [Required]
         [StringLength(255)]
-        public string direccion { get; set; }
+        public string? direccion { get; set; }
 
         [Required]
         [StringLength(20)]
-        public string telefono { get; set; }
+        public string? telefono { get; set; }
 
         [ForeignKey("tipo_local_id")]
         public int tipo_local_id { get; set; }

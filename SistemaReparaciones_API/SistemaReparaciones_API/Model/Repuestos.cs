@@ -17,10 +17,10 @@ namespace SistemaReparaciones_API.Model
         public int tipo_repuesto_id { get; set; }
 
         [StringLength(300)]
-        public string detalle { get; set; }
+        public string? detalle { get; set; }
 
         [StringLength(100)]
-        public string fabricante_modelo { get; set; }
+        public string? fabricante_modelo { get; set; }
 
         [ForeignKey("taller_id")]
         public int taller_id { get; set; }

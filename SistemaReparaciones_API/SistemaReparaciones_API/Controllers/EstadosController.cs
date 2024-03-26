@@ -18,7 +18,7 @@ namespace SistemaReparaciones_API.Controllers
         }
 
 
-
+         
         /*
          --------------------------------------------------------------------------------------------------------
          -----------------------------------------------  Estado ------------------------------------------------
@@ -147,7 +147,7 @@ namespace SistemaReparaciones_API.Controllers
 
 
         // GET: api/<EstadoTallerController>
-        [HttpGet]
+        [HttpGet("Estado_Taller/")]
         public IActionResult ObtenerEstadosTaller()
         {
             var estadosTaller = context.Estado_Taller.ToList();
@@ -161,7 +161,7 @@ namespace SistemaReparaciones_API.Controllers
         }
 
         // GET api/<EstadoTallerController>/5
-        [HttpGet("{id}")]
+        [HttpGet("Estado_Taller/{id}")]
         public IActionResult ObtenerEstadoTaller(int id)
         {
             var estadoTaller = context.Estado_Taller.FirstOrDefault(e => e.id == id);
@@ -175,7 +175,7 @@ namespace SistemaReparaciones_API.Controllers
         }
 
         // POST api/<EstadoTallerController>
-        [HttpPost]
+        [HttpPost("Estado_Taller/")]
         public IActionResult AgregarEstadoTaller([FromBody] Estado_Taller estado_Taller)
         {
             if (estado_Taller == null)
@@ -197,7 +197,7 @@ namespace SistemaReparaciones_API.Controllers
         }
 
         // PUT api/<EstadoTallerController>/5
-        [HttpPut("{id}")]
+        [HttpPut("Estado_Taller/{id}")]
         public IActionResult EditarEstadoTaller(int id, [FromBody] Estado_Taller estado_Taller)
         {
             if (estado_Taller == null)
@@ -229,7 +229,7 @@ namespace SistemaReparaciones_API.Controllers
         }
 
         // DELETE api/<EstadoTallerController>/5
-        [HttpDelete("{id}")]
+        [HttpDelete("Estado_Taller/{id}")]
         public IActionResult EliminarEstadoTaller(int id)
         {
             var estadoTallerExistente = context.Estado_Taller.Find(id);

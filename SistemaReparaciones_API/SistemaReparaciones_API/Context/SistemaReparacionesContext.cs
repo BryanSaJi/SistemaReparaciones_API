@@ -8,7 +8,9 @@ namespace SistemaReparaciones_API.Context
     public class SistemaReparacionesContext:DbContext
     {
 
-        public SistemaReparacionesContext(DbContextOptions<SistemaReparacionesContext> options) : base(options)
+
+        public SistemaReparacionesContext (DbContextOptions<SistemaReparacionesContext> options) : base(options)
+
         {
 
         }

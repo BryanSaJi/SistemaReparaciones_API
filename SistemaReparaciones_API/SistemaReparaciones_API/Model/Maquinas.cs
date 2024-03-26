@@ -14,16 +14,16 @@ namespace SistemaReparaciones_API.Model
         public int tipo_consola_id { get; set; }
 
         [StringLength(100)]
-        public string detalle1 { get; set; }
+        public string? detalle1 { get; set; }
 
         [StringLength(300)]
-        public string detalle2 { get; set; }
+        public string? detalle2 { get; set; }
 
         [StringLength(50)]
-        public string serial { get; set; }
+        public string? serial { get; set; }
 
         [StringLength(300)]
-        public string estado_fisico { get; set; }
+        public string? estado_fisico { get; set; }
 
     }
 }
